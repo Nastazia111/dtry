@@ -79,7 +79,7 @@ console.log("Number / 0 =", age1 / 0);
 
 console.log("Number * number =", age1 * age2);
 
-console.log("Number * number =", age1 * 23);
+console.log("Number * number =", age1 * 25);
 
 console.log("Number * string =", age1 * name1);
 
