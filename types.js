@@ -66,3 +66,55 @@ console.log("Number - number =", age2 - age1);
 console.log("True - number =", true - age1);
 
 // Деление
+
+console.log("Number / number =", age1 / age2);
+
+console.log("Number / number =", age2 / age1);
+
+console.log("Number / number =", age1 / 3);
+
+console.log("Number / 0 =", age1 / 0);
+
+// умножение
+
+console.log("Number * number =", age1 * age2);
+
+console.log("Number * number =", age1 * 23);
+
+console.log("Number * string =", age1 * name1);
+
+// остаток от деления
+
+console.log("57 / 6 ostatok =", 57 % 6);
+
+// преобразование
+
+// строковое преобразование
+
+let value = true;
+
+console.log("cоздала тип - boolean =", typeof value);
+
+value = toString("True");
+
+console.log("преобразовала в строку -", typeof value);
+
+// Численное преобразование
+
+let str = "2110";
+
+console.log("создала тип строка -", typeof str);
+
+let num = Number (str);
+
+console.log("преобразовала в номер -", typeof num);
+
+// Логическое преобразование
+
+console.log( Boolean (1) );
+
+console.log( Boolean (0) );
+
+console.log( Boolean ("0") );
+
+
