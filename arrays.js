@@ -24,3 +24,6 @@ console.log(styles);
 
 styles.unshift('Рэп', 'Регги'); // 5.
 console.log(styles);
+
+
+// с остальными заданиями не справилась
